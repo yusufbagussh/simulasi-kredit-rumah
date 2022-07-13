@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: century;
+}
+
+header{
+    background-image: url(img.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul{ 
+    list-style-type: none;
+    float: left;
+    margin: 20px;
+    padding-left: 40px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    font-weight: bold;
+    
+}
+
+ul li a:hover{
+    background-color: white;
+}
+
+.active{
+    background-color: orangered;
+    color: white;
+}
+
+.main{
+    margin: auto;
+}
+
+.title{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.title h1{
+    color: whitesmoke;
+    text-align: center;
+    top: 30%;
+    font-size: 66px;
+    text-justify: auto;
+}
+
+.button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%,-50%);
+}
+
+.btn{
+    margin: 20px;
+    border: 5px solid orangered;
+    padding: 10px 20px;
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: orangered;
+}
+
+.btn:hover{
+    background-color: aliceblue;
+    color: black;
+}
+
+.body{
+    width: 520px;
+    height: 420px;
+    background:rgba(0, 0, 0, 0.5);
+    color: #fff;
+    position: absolute;
+    top: 30%;
+    left: 33%;       
+}
+
+.body h2{
+    text-align: center;
+    font-size: 28px;
+    margin: 20px;
+    padding: 2px;
+}
